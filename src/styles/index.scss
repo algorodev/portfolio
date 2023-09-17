@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "settings/_index";
+@import "vendor/_index";
+
+#root {
+  @apply w-screen h-screen box-border bg-neutral-800;
+}
