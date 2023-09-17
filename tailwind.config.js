@@ -5,7 +5,15 @@ export default {
     './**/*.{ts,tsx}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#E5D283',
+        'secondary': '#EBEF95',
+      },
+      fontFamily: {
+        'sans' : ['Roboto, sans-serif']
+      }
+    },
   },
   plugins: [],
 }
