@@ -1,0 +1,16 @@
+# Logs
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules
+yarn.lock
+
+# Bundle directories
+dist
+
+# Editor directories
+.idea
+
+# System files
+.DS_Store
