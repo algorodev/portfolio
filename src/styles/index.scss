@@ -3,10 +3,7 @@
 @tailwind utilities;
 
 @import "settings/_index";
-
-*::-webkit-scrollbar {
-
-}
+@import "vendor/_index";
 
 #root {
   @apply w-screen h-screen box-border bg-neutral-800;
