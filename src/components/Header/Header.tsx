@@ -1,13 +1,8 @@
 import './Header.scss'
+import useHeader from './useHeader.tsx'
 
 const Header = () => {
-	const handleContactClick = () => {
-		console.log('Contact!')
-	}
-
-	const handleResumeClick = () => {
-		console.log('Resume!')
-	}
+	const { onContactButtonClick, onResumeButtonClick } = useHeader()
 
 	return (
 		<header className="w-full h-full flex">
@@ -26,10 +21,10 @@ const Header = () => {
 				<a href="#about" className="nav__links mx-4">
 					<p>About</p>
 				</a>
-				<button id="contact_button" className="nav__button" onClick={handleContactClick}>
+				<button id="contact_button" className="nav__button" onClick={onContactButtonClick}>
 					<label htmlFor="contact_button">Contact</label>
 				</button>
-				<button id="resume_button" className="nav__button" onClick={handleResumeClick}>
+				<button id="resume_button" className="nav__button" onClick={onResumeButtonClick}>
 					<label htmlFor="resume_button">Resume</label>
 				</button>
 			</section>
