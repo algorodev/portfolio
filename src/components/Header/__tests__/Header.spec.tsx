@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react'
 import { describe, expect, it, vi } from 'vitest'
 import Header from '../Header.tsx'
 
-vi.mock('../useHeader.tsx', () => ({
+vi.mock('../useHeader', () => ({
 	__esModule: true,
 	default: () => <div>useHeader</div>
 }))
