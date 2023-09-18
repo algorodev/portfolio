@@ -4,10 +4,12 @@ yarn-error.log*
 
 # Dependencies
 node_modules
-yarn.lock
 
 # Bundle directories
 dist
+
+# Coverage
+coverage
 
 # Editor directories
 .idea

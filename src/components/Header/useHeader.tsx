@@ -1,10 +1,10 @@
 const useHeader = () => {
 	const onContactButtonClick = () => {
-		console.log('Contact!')
+		return 'Contact!'
 	}
 
 	const onResumeButtonClick = () => {
-		console.log('Resume!')
+		return 'Resume!'
 	}
 
 	return {
