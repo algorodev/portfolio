@@ -7,11 +7,16 @@ vi.mock('../components/Header/Header', () => ({
 	default: () => <div>Header</div>
 }))
 
+vi.mock('../views/Home/Home', () => ({
+	__esModule: true,
+	default: () => <div>Home</div>
+}))
+
 describe('App Component', () => {
 	it('should render app as expected', () => {
 		render(<App />)
 
 		expect(screen.getByText('Header')).toBeInTheDocument()
-		expect(screen.getByText('Content')).toBeInTheDocument()
+		expect(screen.getByText('Home')).toBeInTheDocument()
 	})
 })
