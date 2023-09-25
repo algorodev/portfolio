@@ -13,7 +13,12 @@ export default defineConfig({
       provider: 'v8',
       enabled: true,
       include: ['src/**'],
-      exclude: ['src/main.tsx', 'src/**/*.d.ts', 'src/assets/**'],
+      exclude: [
+        'src/main.tsx',
+        'src/**/*.d.ts',
+        'src/assets/**',
+        'src/types/**',
+      ],
       all: true,
       clean: true,
       cleanOnRerun: true,
