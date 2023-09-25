@@ -1,0 +1,70 @@
+{
+  "degrees": [
+    {
+      "date": {
+        "month": "August",
+        "year": 2020
+      },
+      "title": "Bootcamp Full-Stack Developer",
+      "company": "GeeksHub Academy",
+      "lessons": [
+        "Learn technologies and tools used by active professionals.",
+        "Learn the flow of creating a web application and be able to implement it.",
+        "Know the work methodologies used in the companies where you will join.",
+        "Create a complete professional project portfolio to show all the knowledge acquired throughout the process.",
+        "Practice your soft skills to complete your professional profile and thus make easier your entry into the labor market."
+      ]
+    },
+    {
+      "date": {
+        "month": "June",
+        "year": 2019
+      },
+      "title": "Técnico Superior en Desarrollo de aplicaciones multiplataforma",
+      "company": "CIEEP Progresa",
+      "lessons": [
+        "Configure and operate computer systems, adapting the logical configuration of the system according to the needs of use and the criteria established.",
+        "Apply techniques and procedures related to safety in systems, services and applications, complying with the security plan.",
+        "Manage databases, interpreting their logical design and verifying data integrity, consistency, security and accessibility.",
+        "Manage development environments by adapting their configuration in each case to enable application development and deployment.",
+        "Develop cross-platform applications with access to databases using languages, libraries and tools suitable to specifications.",
+        "Integrate graphic content and multimedia components in cross-platform applications, using specific tools and meeting established requirements.",
+        "Develop applications for phones, PDAs and other mobile devices using specific development techniques and environments.",
+        "Develop multi process and multi-thread applications using specific programming techniques and libraries.",
+        "Participate in the implementation of ERP-CRM systems evaluating the usefulness of each of its modules.",
+        "Manage the information stored in ERP-CRM systems ensuring its integrity."
+      ]
+    },
+    {
+      "date": {
+        "month": "June",
+        "year": 2017
+      },
+      "title": "Técnico en Sistema micro informáticos y redes",
+      "company": "CIEEP Progresa",
+      "lessons": [
+        "Install and configure basic and application software, wired, wireless or mixed local networks and connected to public networks.",
+        "Install, configure, and maintain multi-user services, applications, and shared devices in a local network environment.",
+        "Assemble and configure computers and peripherals.",
+        "Determine the logistics associated with the installation, configuration and maintenance of micro informatics systems.",
+        "Diagnose dysfunctions in micro informatics systems and networks through functional tests.",
+        "Redesign the wiring and electronics of local networks in small environments and their connection to large area networks.",
+        "Execute established data recovery procedures and applications in case of data failure and loss in the system."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "year": 2023,
+      "title": "SAFE 5.0 Practitioner Certification"
+    },
+    {
+      "year": 2021,
+      "title": "SAFE 4.0 Practitioner Certification"
+    },
+    {
+      "year": 2016,
+      "title": "Cambridge B1 Preliminary (PET)"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+.education__container {
+  @apply mx-80 flex flex-col;
+}
+
+.education__title {
+  @apply my-4 text-4xl font-bold;
+}
+
+.degree {
+  @apply mb-8 flex;
+
+  &__date-container {
+    @apply mr-4 w-20 h-20 flex flex-col items-center justify-center;
+    background: #E5D283;
+
+    & p {
+      @apply text-neutral-800;
+
+      &:last-child {
+        @apply text-2xl font-bold;
+      }
+    }
+  }
+
+  &__info-container {
+    @apply flex-1;
+  }
+
+  &__title {
+    @apply text-3xl;
+  }
+
+  &__company {
+    @apply font-thin italic;
+  }
+
+  &__lesson {
+    @apply mb-0.5 italic;
+  }
+}
+
+.certification {
+  @apply mb-8 flex items-center;
+
+  &__date-container {
+    @apply mr-4 w-20 h-10 flex flex-col items-center justify-center;
+    background: #E5D283;
+
+    & p {
+      @apply text-neutral-800 text-2xl font-bold;
+    }
+  }
+
+  &__info-container {
+    @apply flex-1;
+  }
+
+  &__title {
+    @apply text-3xl;
+  }
+}
