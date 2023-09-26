@@ -7,36 +7,34 @@ const EducationSection = () => {
 	const certifications: CertificationDataI[] = data.certifications
 
 	return (
-		<>
-			<section className="education__container">
-				<h3 className="education__title">Degrees</h3>
-				{degrees.map((degree: EducationDataI) => (
-					<div className="degree">
-						<div className="degree__date-container">
-							<p>{degree.date.month}</p>
-							<p>{degree.date.year}</p>
-						</div>
-						<div className="degree__info-container">
-							<h3 className="degree__title">{degree.title}, <span className="degree__company">{degree.company}</span></h3>
-							{degree.lessons.map((lesson: string) => (
-								<p className="degree__lesson">- {lesson}</p>
-							))}
-						</div>
+		<section className="education__container">
+			<h3 className="education__title">Degrees</h3>
+			{degrees.map((degree: EducationDataI) => (
+				<div className="degree">
+					<div className="degree__date-container">
+						<p>{degree.date.month}</p>
+						<p>{degree.date.year}</p>
 					</div>
-				))}
-				<h3 className='education__title'>Certifications</h3>
-				{certifications.map((certification: CertificationDataI) => (
-					<div className="certification">
-						<div className="certification__date-container">
-							<p>{certification.year}</p>
-						</div>
-						<div className="certification__info-container">
-							<h3 className="certification__title">{certification.title}</h3>
-						</div>
+					<div className="degree__info-container">
+						<h3 className="degree__title">{degree.title}, <span className="degree__company">{degree.company}</span></h3>
+						{degree.lessons.map((lesson: string) => (
+							<p className="degree__lesson">- {lesson}</p>
+						))}
 					</div>
-				))}
-			</section>
-		</>
+				</div>
+			))}
+			<h3 className="education__title">Certifications</h3>
+			{certifications.map((certification: CertificationDataI) => (
+				<div className="certification">
+					<div className="certification__date-container">
+						<p>{certification.year}</p>
+					</div>
+					<div className="certification__info-container">
+						<h3 className="certification__title">{certification.title}</h3>
+					</div>
+				</div>
+			))}
+		</section>
 	)
 }
 
