@@ -1,5 +1,5 @@
 .education__container {
-  @apply mx-80 flex flex-col;
+  @apply flex flex-col;
 }
 
 .education__title {
@@ -10,8 +10,7 @@
   @apply mb-8 flex;
 
   &__date-container {
-    @apply mr-4 w-20 h-20 flex flex-col items-center justify-center;
-    background: #E5D283;
+    @apply mr-4 w-20 h-20 flex flex-col items-center justify-center bg-primary;
 
     & p {
       @apply text-neutral-800;
@@ -43,8 +42,7 @@
   @apply mb-8 flex items-center;
 
   &__date-container {
-    @apply mr-4 w-20 h-10 flex flex-col items-center justify-center;
-    background: #E5D283;
+    @apply mr-4 w-20 h-10 flex flex-col items-center justify-center bg-primary;
 
     & p {
       @apply text-neutral-800 text-2xl font-bold;
