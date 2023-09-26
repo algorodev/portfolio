@@ -1,3 +1,9 @@
+export interface AboutDataI {
+	fullName: string
+	position: string
+	biography: string[]
+}
+
 export interface EducationDataI {
 	date: {
 		month: string

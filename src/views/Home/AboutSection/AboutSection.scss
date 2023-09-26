@@ -1,0 +1,27 @@
+.about__container {
+  @apply flex flex-col;
+}
+
+.about__title {
+  @apply my-4 text-4xl font-bold;
+}
+
+.about-me {
+  @apply mb-8 flex items-center;
+
+  &__container {
+    @apply w-1/2
+  }
+
+  &__title {
+    @apply text-7xl text-secondary tracking-widest font-bold;
+  }
+
+  &__subtitle {
+    @apply text-7xl text-primary tracking-widest font-bold text-right;
+  }
+
+  &__biography {
+    @apply mb-2.5 text-3xl;
+  }
+}
