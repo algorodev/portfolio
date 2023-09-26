@@ -1,53 +1,51 @@
-.nav__links {
-  position: relative;
-  text-decoration: none;
-}
+.header {
+  @apply w-full h-full flex;
 
-.nav__links::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  border-radius: 4px;
-  background-color: #E5D283;
-  bottom: 0;
-  left: 0;
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform .3s ease-in-out;
-}
+  &__container {
+    @apply w-1/2 h-full flex items-center;
 
-.nav__links:hover::before {
-  transform-origin: left;
-  transform: scaleX(1);
-}
+    &--left {
+      @apply pl-8;
+    }
 
-.nav__button {
-  padding: 0 1rem;
-  border: 1px solid #E5D283;
-  border-radius: 4px;
-  position: relative;
-}
+    &--right {
+      @apply pr-8 justify-end gap-3;
+    }
+  }
 
-.nav__button label {
-  cursor: pointer;
-}
+  &__link {
+    @apply relative no-underline;
 
-.nav__button::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #E5D283;
-  bottom: 0;
-  left: 0;
-  transform-origin: left;
-  transform: scaleX(0);
-  opacity: 0.75;
-  transition: transform .3s ease-in-out;
-}
+    &::before {
+      @apply w-full h-0.5 rounded bg-primary absolute bottom-0 left-0 origin-right;
+      content: '';
+      transform: scaleX(0);
+      transition: transform .3s ease-in-out;
+    }
 
-.nav__button:hover::before {
-  transform-origin: right;
-  transform: scaleX(1);
+    &:hover::before {
+      @apply origin-left;
+      transform: scaleX(1);
+    }
+  }
+
+  &__button {
+    @apply px-4 border border-solid border-primary rounded relative;
+
+    & label {
+      @apply cursor-pointer;
+    }
+
+    &::before {
+      @apply w-full h-full bg-primary absolute bottom-0 left-0 origin-left opacity-75;
+      content: '';
+      transform: scaleX(0);
+      transition: transform .3s ease-in-out;
+    }
+
+    &:hover::before {
+      @apply origin-right;
+      transform: scaleX(1);
+    }
+  }
 }
