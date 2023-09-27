@@ -4,10 +4,10 @@ import './Home.scss'
 
 const Home = () => (
 	<section className="home">
-		<div className="about">
+		<div id="about" className="about">
 			<AboutSection />
 		</div>
-		<div className="education">
+		<div id="education" className="education">
 			<EducationSection />
 		</div>
 	</section>

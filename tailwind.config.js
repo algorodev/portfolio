@@ -13,7 +13,8 @@ export default {
         'secondary': '#9EDDFF',
       },
       fontFamily: {
-        'sans' : ['Roboto, sans-serif']
+        'sans': ['Roboto, sans-serif'],
+        'mono': ['Roboto Mono, monospace']
       }
     },
   },

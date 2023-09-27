@@ -10,7 +10,7 @@ const AboutSection = () => {
 			<h3 className="about__title">About</h3>
 			<div className="about-me">
 				<div className="about-me__container">
-					<h3 className="about-me__title">{about.fullName}</h3>
+					<h2 className="about-me__title">{about.fullName}</h2>
 					<p className="about-me__subtitle">{about.position}</p>
 				</div>
 				<div className="about-me__container">

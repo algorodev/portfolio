@@ -7,21 +7,21 @@
 }
 
 .about-me {
-  @apply mb-8 flex items-center;
+  @apply mb-8 flex items-center gap-4;
 
   &__container {
     @apply w-1/2
   }
 
   &__title {
-    @apply text-7xl text-secondary tracking-widest font-bold;
+    @apply font-mono text-7xl text-secondary tracking-widest font-bold;
   }
 
   &__subtitle {
-    @apply text-7xl text-primary tracking-widest font-bold text-right;
+    @apply font-mono text-7xl text-primary tracking-widest font-bold text-right;
   }
 
   &__biography {
-    @apply mb-2.5 text-3xl;
+    @apply mb-2.5 text-3xl font-mono font-light;
   }
 }
