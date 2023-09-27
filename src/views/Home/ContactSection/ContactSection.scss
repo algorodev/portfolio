@@ -1,0 +1,45 @@
+.contact__container {
+  @apply flex flex-col;
+}
+
+.contact__info-container {
+  @apply flex gap-4;
+}
+
+.contact__title {
+  @apply my-4 text-4xl font-bold;
+}
+
+.contact__subtitle {
+  @apply my-1 text-2xl;
+}
+
+.contact__link {
+  @apply mb-2 flex items-center gap-2;
+}
+
+.social-media,
+.personal-info {
+  @apply w-1/2 mb-8;
+}
+
+.contact__icon {
+  @apply w-5 h-5 text-neutral-200;
+}
+
+.social-media .contact__subtitle {
+  @apply text-primary;
+
+}
+
+.social-media .contact__link a:hover {
+  @apply text-secondary;
+}
+
+.personal-info .contact__subtitle {
+  @apply text-secondary;
+}
+
+.personal-info .contact__link a:hover {
+  @apply text-primary;
+}
