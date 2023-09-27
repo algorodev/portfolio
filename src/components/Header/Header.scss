@@ -30,10 +30,14 @@
   }
 
   &__button {
-    @apply px-4 border border-solid border-primary rounded relative;
+    @apply py-1 px-3 flex justify-center items-center gap-1.5 border border-solid border-primary rounded relative;
 
     & label {
       @apply cursor-pointer;
+    }
+
+    .icon {
+      @apply w-5 h-5 text-neutral-200;
     }
 
     &::before {
