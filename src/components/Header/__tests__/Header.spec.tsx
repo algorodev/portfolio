@@ -13,7 +13,7 @@ describe('<Header/>', () => {
 
 		expect(screen.getByText('LOGO')).toBeInTheDocument()
 		expect(screen.getAllByRole('link')).toHaveLength(4)
-		expect(screen.getAllByRole('button')).toHaveLength(2)
+		expect(screen.getAllByRole('button')).toHaveLength(1)
 	})
 })
 
