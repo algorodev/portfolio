@@ -1,0 +1,172 @@
+{
+  "experiences": [
+    {
+      "date": {
+        "start": "October 2022",
+        "end": "Now"
+      },
+      "job": {
+        "title": "Full-Stack Developer",
+        "company": "Mercedes-Benz"
+      },
+      "technologies": [
+        "HTML5",
+        "React",
+        "Vite",
+        "TypeScript",
+        "Sass",
+        "MaterialUI",
+        "Express",
+        "NodeJS",
+        "Swagger",
+        "Storybook",
+        "Jest",
+        "Vitest",
+        "Cypress",
+        "PostgreSQL",
+        "Azure",
+        "Github",
+        "SonarQube",
+        "SCRUM",
+        "Git"
+      ],
+      "description": "My role as a full-stack developer at Mercedes-Benz involved the end-to-end development lifecycle, from creating functionalities and data integrations to rigorous testing, documentation, deployment, participation in planning meetings, and ongoing support. These efforts were instrumental in delivering reliable and effective software solutions to meet our clients' needs."
+    },
+    {
+      "date": {
+        "start": "June 2020",
+        "end": "February 2023"
+      },
+      "job": {
+        "title": "CEO & Founder",
+        "company": "Encoderape"
+      },
+      "technologies": [
+        "HTML5",
+        "React",
+        "Angular",
+        "TypeScript",
+        "Sass",
+        "Express",
+        "NodeJS",
+        "NestJS",
+        "Swagger",
+        "Storybook",
+        "Jest",
+        "Cypress",
+        "PostgreSQL",
+        "MongoDB",
+        "Bitbucket",
+        "AWS",
+        "SonarQube",
+        "SCRUM",
+        "Git"
+      ],
+      "description": "My role as a frontend developer in this police management software company involved creating, integrating, testing, and documenting essential functionalities. My contributions played a vital role in delivering a robust, efficient, and user-friendly application that empowered law enforcement professionals in their critical tasks."
+    },
+    {
+      "date": {
+        "start": "October 2021",
+        "end": "October 2022"
+      },
+      "job": {
+        "title": "Full-Stack Developer",
+        "company": "Capgemini"
+      },
+      "technologies": [
+        "HTML5",
+        "Angular",
+        "TypeScript",
+        "Sass",
+        "Angular Material",
+        "Nx",
+        "NestJS",
+        "Jest",
+        "Cypress",
+        "PostgreSQL",
+        "MongoDB",
+        "Swagger",
+        "Storybook",
+        "Azure",
+        "SonarQube",
+        "AWS",
+        "SCRUM",
+        "Git"
+      ],
+      "description": "My role as a full-stack developer at the consulting firm involved creating MVPs, integrating data, conducting thorough testing, documenting functionalities, deploying applications, and actively participating in planning meetings. These efforts were instrumental in delivering successful projects and providing clients with efficient and effective solutions to their unique challenges."
+    },
+    {
+      "date": {
+        "start": "March 2021",
+        "end": "October 2021"
+      },
+      "job": {
+        "title": "Full-Stack Developer",
+        "company": "Increnta"
+      },
+      "technologies": [
+        "HTML5",
+        "React",
+        "TypeScript",
+        "Sass",
+        "TailwindCSS",
+        "Jest",
+        "Laravel",
+        "PHP",
+        "GitLab",
+        "SCRUM",
+        "Git"
+      ],
+      "description": "My role as a full-stack developer in this digital marketing software company involved rebuilding the application with modern technologies, planning tasks, developing features, integrating data, testing rigorously, and documenting functionalities. These efforts were instrumental in delivering an advanced and competitive digital marketing solution that empowered marketers to succeed in their campaigns."
+    },
+    {
+      "date": {
+        "start": "September 2020",
+        "end": "March 2021"
+      },
+      "job": {
+        "title": "Frontend Developer",
+        "company": "VinfoPOL"
+      },
+      "technologies": [
+        "HTML5",
+        "Angular",
+        "Jest",
+        "TypeScript",
+        "Sass",
+        "Bootstrap",
+        "DevExtreme",
+        "SmartAdmin",
+        "Azure",
+        "SonarQube",
+        "SCRUM",
+        "Git"
+      ],
+      "description": "My role as a frontend developer in this police management software company involved creating, integrating, testing, and documenting essential functionalities. My contributions played a vital role in delivering a robust, efficient, and user-friendly application that empowered law enforcement professionals in their critical tasks."
+    },
+    {
+      "date": {
+        "start": "June 2019",
+        "end": "June 2020"
+      },
+      "job": {
+        "title": "Freelance",
+        "company": ""
+      },
+      "technologies": [
+        "HTML5",
+        "Angular",
+        "TypeScript",
+        "Sass",
+        "Express",
+        "NodeJS",
+        "Jest",
+        "Cypress",
+        "MongoDB",
+        "Github",
+        "Git"
+      ],
+      "description": "My role as a frontend developer in this police management software company involved creating, integrating, testing, and documenting essential functionalities. My contributions played a vital role in delivering a robust, efficient, and user-friendly application that empowered law enforcement professionals in their critical tasks."
+    }
+  ]
+}
