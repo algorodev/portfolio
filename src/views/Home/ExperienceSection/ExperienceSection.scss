@@ -1,0 +1,43 @@
+.experience__container {
+  @apply flex flex-col;
+}
+
+.experience__title {
+  @apply my-4 text-4xl font-bold;
+}
+
+.experience {
+  @apply mb-8;
+
+  &:last-child {
+    @apply mb-4;
+  }
+
+  &__company {
+    @apply font-thin italic text-secondary;
+  }
+
+  &__info-container {
+    @apply flex items-center gap-5;
+
+    & h3 {
+      @apply text-primary;
+
+      &:last-child {
+        @apply text-2xl text-secondary font-bold;
+      }
+    }
+  }
+
+  &__skill-container {
+    @apply flex flex-col;
+  }
+
+  &__technologies {
+    @apply flex flex-wrap gap-1;
+
+    .technology {
+      @apply italic text-secondary;
+    }
+  }
+}
