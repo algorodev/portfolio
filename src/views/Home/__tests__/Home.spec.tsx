@@ -12,6 +12,11 @@ vi.mock('../ContactSection/ContactSection', () => ({
 	default: () => <div>ContactSection</div>
 }))
 
+vi.mock('../ExperienceSection/ExperienceSection', () => ({
+	__esModule: true,
+	default: () => <div>ExperienceSection</div>
+}))
+
 vi.mock('../EducationSection/EducationSection', () => ({
 	__esModule: true,
 	default: () => <div>EducationSection</div>
@@ -23,6 +28,7 @@ describe('Home View', () => {
 
 		expect(screen.getByText('AboutSection')).toBeInTheDocument()
 		expect(screen.getByText('ContactSection')).toBeInTheDocument()
+		expect(screen.getByText('ExperienceSection')).toBeInTheDocument()
 		expect(screen.getByText('EducationSection')).toBeInTheDocument()
 	})
 })
