@@ -5,11 +5,11 @@
     @apply w-1/2 h-full flex items-center;
 
     &--left {
-      @apply pl-8;
+      @apply md:pl-8;
     }
 
     &--right {
-      @apply pr-8 justify-end gap-3;
+      @apply pr-4 md:pr-8 justify-end gap-3;
     }
   }
 
@@ -33,7 +33,7 @@
     @apply py-1 px-3 flex justify-center items-center gap-1.5 border border-solid border-primary rounded relative;
 
     & label {
-      @apply cursor-pointer;
+      @apply hidden lg:block cursor-pointer;
     }
 
     .icon {

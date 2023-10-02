@@ -5,7 +5,7 @@ import './Header.scss'
 const Header = () => (
 	<header className="header">
 		<section className="header__container header__container--left">
-			<h3 className="text-3xl">LOGO</h3> {/* TODO: SET LOGO */}
+			{/* <h3 className="text-3xl">LOGO</h3> TODO: SET LOGO */}
 		</section>
 		<section className="header__container header__container--right">
 			<a href="#about" className="header__link">

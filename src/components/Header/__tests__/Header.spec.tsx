@@ -6,7 +6,6 @@ describe('<Header/>', () => {
 	it('should render component as expected', () => {
 		render(<Header />)
 
-		expect(screen.getByText('LOGO')).toBeInTheDocument()
 		expect(screen.getAllByRole('link')).toHaveLength(5)
 	})
 })
