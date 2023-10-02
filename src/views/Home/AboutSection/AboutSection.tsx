@@ -14,8 +14,8 @@ const AboutSection = () => {
 					<p className="about-me__subtitle">{about.position}</p>
 				</div>
 				<div className="about-me__container">
-					{about.biography.map((text: string) => (
-						<p className="about-me__biography">{text}</p>
+					{about.biography.map((text: string, index: number) => (
+						<p key={`about-${index}`} className="about-me__biography">{text}</p>
 					))}
 				</div>
 			</div>
