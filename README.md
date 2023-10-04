@@ -8,7 +8,7 @@
 
 ## Overview
 
-<!-- TODO: Include preview of the application. -->
+![](https://github.com/algorodev/portfolio/assets/65685574/097a2f15-2007-488e-bcbe-db155ea688ff)
 
 ## Built With
 
