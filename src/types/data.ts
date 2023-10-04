@@ -13,6 +13,7 @@ export interface ExperienceDataI {
 		title: string
 		company: string
 	}
+	tasks: string[]
 	technologies: string[]
 	description: string
 }

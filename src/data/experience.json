@@ -9,6 +9,22 @@
         "title": "Full-Stack Developer",
         "company": "Mercedes-Benz"
       },
+      "tasks": [
+        "Creating Functionalities",
+        "Creating User Interfaces",
+        "Data Integration",
+        "Responsive Design",
+        "Testing and Quality Assurance",
+        "Documentation",
+        "Deployment",
+        "Performance Optimization",
+        "Cross-Browser Compatibility",
+        "Accessibility",
+        "Version Control",
+        "Continuous Learning",
+        "Planning Meetings",
+        "Ongoing Support"
+      ],
       "technologies": [
         "HTML5",
         "React",
@@ -30,7 +46,7 @@
         "SCRUM",
         "Git"
       ],
-      "description": "My role as a full-stack developer at Mercedes-Benz involved the end-to-end development lifecycle, from creating functionalities and data integrations to rigorous testing, documentation, deployment, participation in planning meetings, and ongoing support. These efforts were instrumental in delivering reliable and effective software solutions to meet our clients' needs."
+      "description": "I've honed my skills in writing high-quality code, emphasizing clean code practices, adhering to SOLID principles, and implementing design patterns. I'm also well-versed in working within agile methodologies. One of my primary challenges has been adapting to the pressure of working on a product that undergoes constant change."
     },
     {
       "date": {
@@ -41,6 +57,24 @@
         "title": "CEO & Founder",
         "company": "Encoderape"
       },
+      "tasks": [
+        "Strategic Planning",
+        "Financial Management",
+        "Business Development",
+        "Leadership",
+        "Decision-Making",
+        "Marketing and Sales",
+        "Networking",
+        "Legal and Compliance",
+        "Software Development",
+        "Client Communication",
+        "Project Management",
+        "Quality Assurance",
+        "Documentation",
+        "Technical Support",
+        "Research and Learning",
+        "Administrative Tasks"
+      ],
       "technologies": [
         "HTML5",
         "React",
@@ -62,7 +96,7 @@
         "SCRUM",
         "Git"
       ],
-      "description": "My role as a frontend developer in this police management software company involved creating, integrating, testing, and documenting essential functionalities. My contributions played a vital role in delivering a robust, efficient, and user-friendly application that empowered law enforcement professionals in their critical tasks."
+      "description": "I've acquired the ability to maintain composure and patience when dealing with clients, along with effective task and long-term project management skills. Additionally, I've gained experience in tasks such as deployments, networking, and systems management. One of my primary challenges has been adapting to the pressure of client demands, knowing that months of work, meetings, and coordination need to be organized efficiently."
     },
     {
       "date": {
@@ -73,6 +107,19 @@
         "title": "Full-Stack Developer",
         "company": "Capgemini"
       },
+      "tasks": [
+        "Creating Functionalities",
+        "Creating User Interfaces",
+        "Data Integration",
+        "Responsive Design",
+        "Testing and Quality Assurance",
+        "Documentation",
+        "Performance Optimization",
+        "Cross-Browser Compatibility",
+        "Version Control",
+        "Continuous Learning",
+        "Planning Meetings"
+      ],
       "technologies": [
         "HTML5",
         "Angular",
@@ -93,7 +140,7 @@
         "SCRUM",
         "Git"
       ],
-      "description": "My role as a full-stack developer at the consulting firm involved creating MVPs, integrating data, conducting thorough testing, documenting functionalities, deploying applications, and actively participating in planning meetings. These efforts were instrumental in delivering successful projects and providing clients with efficient and effective solutions to their unique challenges."
+      "description": "I've gained expertise in designing a monolithic architecture with shared libraries and a strong emphasis on code reusability. Additionally, I've developed excellent client communication and presentation skills. My experience extends to both technical architecture and effective client interaction."
     },
     {
       "date": {
@@ -104,6 +151,16 @@
         "title": "Full-Stack Developer",
         "company": "Increnta"
       },
+      "tasks": [
+        "Creating Functionalities",
+        "Creating User Interfaces",
+        "Data Integration",
+        "Responsive Design",
+        "Testing and Quality Assurance",
+        "Version Control",
+        "Continuous Learning",
+        "Planning Meetings"
+      ],
       "technologies": [
         "HTML5",
         "React",
@@ -117,7 +174,7 @@
         "SCRUM",
         "Git"
       ],
-      "description": "My role as a full-stack developer in this digital marketing software company involved rebuilding the application with modern technologies, planning tasks, developing features, integrating data, testing rigorously, and documenting functionalities. These efforts were instrumental in delivering an advanced and competitive digital marketing solution that empowered marketers to succeed in their campaigns."
+      "description": "I've learned the intricacies of building a product from scratch, encompassing architecture, technology choices, and more. Additionally, I've acquired skills in effectively managing a small team. My most significant challenge was successfully leading a small team while preparing and developing the product."
     },
     {
       "date": {
@@ -128,6 +185,17 @@
         "title": "Frontend Developer",
         "company": "VinfoPOL"
       },
+      "tasks": [
+        "Creating User Interfaces",
+        "Data Integration",
+        "Responsive Design",
+        "Testing and Quality Assurance",
+        "Documentation",
+        "Performance Optimization",
+        "Cross-Browser Compatibility",
+        "Version Control",
+        "Continuous Learning"
+      ],
       "technologies": [
         "HTML5",
         "Angular",
@@ -142,7 +210,7 @@
         "SCRUM",
         "Git"
       ],
-      "description": "My role as a frontend developer in this police management software company involved creating, integrating, testing, and documenting essential functionalities. My contributions played a vital role in delivering a robust, efficient, and user-friendly application that empowered law enforcement professionals in their critical tasks."
+      "description": "I've acquired the skills to write high-quality code, emphasizing clean code principles and adhering to the SOLID principles. Additionally, I've become proficient in working within agile methodologies. One of my primary challenges was transitioning to a professional work environment, where the stakes are high, and errors carry significant consequences in a production setting."
     },
     {
       "date": {
@@ -153,6 +221,16 @@
         "title": "Freelance",
         "company": ""
       },
+      "tasks": [
+        "Software Development",
+        "Client Communication",
+        "Project Management",
+        "Quality Assurance",
+        "Documentation",
+        "Technical Support",
+        "Research and Learning",
+        "Administrative Tasks"
+      ],
       "technologies": [
         "HTML5",
         "Angular",
@@ -166,7 +244,7 @@
         "Github",
         "Git"
       ],
-      "description": "My role as a frontend developer in this police management software company involved creating, integrating, testing, and documenting essential functionalities. My contributions played a vital role in delivering a robust, efficient, and user-friendly application that empowered law enforcement professionals in their critical tasks."
+      "description": "I've acquired the skill of delivering high-quality and maintainable applications. I've also become proficient in tasks such as deployments, networking, and systems management. My most significant challenge has been adapting to the pressure of client expectations, where the organization of months of work and meetings becomes paramount."
     }
   ]
 }
