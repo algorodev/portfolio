@@ -17,6 +17,13 @@ const ExperienceSection = () => {
 					</div>
 					<div className="experience__skill-container">
 						<p>{experience.description}</p>
+						<ul className="experience__tasks">
+							{experience.tasks.map((task: string, index: number) => (
+								<li key={`task-${index}`}>
+									<p>{task}</p>
+								</li>
+							))}
+						</ul>
 						<div className="experience__technologies">
 							{experience.technologies.map((technology: string, index: number) => (
 								<Fragment key={`technology-${index}`}>

@@ -33,6 +33,14 @@
     @apply flex flex-col;
   }
 
+  &__tasks {
+    @apply my-2 ml-4 list-disc;
+
+    & li {
+      @apply text-secondary;
+    }
+  }
+
   &__technologies {
     @apply flex flex-wrap gap-1;
 

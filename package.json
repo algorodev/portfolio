@@ -1,6 +1,6 @@
 {
   "name": "algorodev-portfolio",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Personal dev portfolio made with Vite, React and TypeScript.",
   "repository": "https://github.com/algorodev/portfolio.git",
   "author": "Alejandro Gonzalez Romero <me@algorodev.com>",
