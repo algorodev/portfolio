@@ -4,10 +4,6 @@
   .screen__container {
     @apply w-full;
 
-    &.screen__container--header {
-      @apply h-16;
-    }
-
     &.screen__container--content {
       @apply flex-1 overflow-y-scroll;
     }

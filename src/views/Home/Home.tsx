@@ -1,8 +1,8 @@
 import EducationSection from './EducationSection/EducationSection.tsx'
 import AboutSection from './AboutSection/AboutSection.tsx'
-import './Home.scss'
 import ContactSection from './ContactSection/ContactSection.tsx'
 import ExperienceSection from './ExperienceSection/ExperienceSection.tsx'
+import './Home.scss'
 
 const Home = () => (
 	<section className="home">
