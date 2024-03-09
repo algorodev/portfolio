@@ -7,7 +7,7 @@ import './Hero.scss'
 
 const HeroSection = () => {
 	const name: string = 'Alejandro González Romero'
-	const label: string = 'Full Stack Developer con más de 5 años de experiencia'
+	const label: string = 'Full Stack Developer with more than 5 years of experience'
 	const born: string = 'Valencia, España'
 	const email: string = 'me@algorodev.com'
 	const phone: string = '648183931'
@@ -22,7 +22,7 @@ const HeroSection = () => {
 				<h2 className="title">{label}</h2>
 				<span className="location">
 					<WorldIcon/>
-					Born in {born}
+					{born}
 				</span>
 				<footer className="social-container">
 					<a className="social-button"
