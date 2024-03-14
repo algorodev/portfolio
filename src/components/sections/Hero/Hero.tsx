@@ -8,7 +8,7 @@ import './Hero.scss'
 const HeroSection = () => {
 	const name: string = 'Alejandro González Romero'
 	const label: string = 'Full Stack Developer with more than 5 years of experience'
-	const born: string = 'Valencia, España'
+	const born: string = 'Dublin, Ireland'
 	const email: string = 'me@algorodev.com'
 	const phone: string = '648183931'
 	const linkedInUrl: string = 'https://linkedin.com/in/algorodev'
