@@ -1,6 +1,7 @@
 export interface CV {
 	hero: Hero
 	about: About
+	projects: Project[]
 }
 
 interface Hero {
@@ -16,4 +17,11 @@ interface Hero {
 
 interface About {
 	text: string
+}
+
+interface Project {
+	name: string
+	url: string
+	description: string
+	highlights: string[]
 }
