@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "name": "Alejandro González Romero",
+    "label": "Full Stack Developer with more than 5 years of experience",
+    "born": "Dublin, Ireland",
+    "email": "me@algorodev.com",
+    "phone": "648183931",
+    "linkedInUrl": "https://linkedin.com/in/algorodev",
+    "gitHubUrl": "https://github.com/algorodev",
+    "imagePath": "/me.webp"
+  }
+}
