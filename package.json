@@ -1,6 +1,6 @@
 {
   "name": "algorodev-portfolio",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Personal dev portfolio made with Vite, React and TypeScript.",
   "repository": "https://github.com/algorodev/portfolio.git",
   "author": "Alejandro Gonzalez Romero <me@algorodev.com>",
@@ -10,8 +10,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "18.2.0",
