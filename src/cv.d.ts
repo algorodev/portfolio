@@ -1,5 +1,6 @@
 export interface CV {
 	hero: Hero
+	about: About
 }
 
 interface Hero {
@@ -11,4 +12,8 @@ interface Hero {
 	linkedInUrl: string
 	gitHubUrl: string
 	imagePath: string
+}
+
+interface About {
+	text: string
 }
