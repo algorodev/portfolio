@@ -1,0 +1,59 @@
+.project-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+.project {
+  border-radius: 8px;
+  border: 1px solid #FAFAFA;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  height: 100%;
+
+  &-header {
+    flex: 1;
+
+    .project-name {
+      margin-bottom: 4px;
+
+      & a {
+        color: #6dadf4;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .description {
+      font-size: 0.75rem;
+      line-height: 1.2rem;
+      margin-bottom: 4px;
+    }
+  }
+
+  &-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+
+    .highlight {
+      border-radius: 6px;
+      background: #CCC;
+      color: #444;
+      font-size: 0.6rem;
+      font-weight: 500;
+      padding: 0.2rem 0.6rem;
+    }
+  }
+}

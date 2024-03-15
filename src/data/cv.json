@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "name": "Alejandro González Romero",
+    "label": "Full Stack Developer with more than 5 years of experience",
+    "born": "Dublin, Ireland",
+    "email": "me@algorodev.com",
+    "phone": "648183931",
+    "linkedInUrl": "https://linkedin.com/in/algorodev",
+    "gitHubUrl": "https://github.com/algorodev",
+    "imagePath": "/me.webp"
+  },
+  "about": {
+    "text": "Tech-enthusiast with +5 years of experience as a programmer with quick adaptation to new challenges and responsibilities. Experience of working with tight deadlines, under time pressure while ensuring quality and with agile methodologies. I'm always curious to learn more about technologies and any kind of art, I'm a passionate about music, films and sports."
+  },
+  "projects": [
+    {
+      "name": "Portfolio",
+      "url": "https://github.com/algorodev/portfolio",
+      "description": "Personal portfolio created with HTML, CSS, React, Vite and TypeScript.",
+      "highlights": ["Portfolio"]
+    },
+    {
+      "name": "Auth API",
+      "url": "https://github.com/algorodev/auth-api",
+      "description": "Authentication API created with NodeJS, Express, TypeScript and PostgreSQL.",
+      "highlights": ["REST API", "API Documentation", "Authentication"]
+    },
+    {
+      "name": "Hackerrank Challenges",
+      "url": "https://github.com/algorodev/hackerrank-challenges",
+      "description": "Solved Hackerrank Challenges using JavaScript and Python.",
+      "highlights": ["Algorithms", "Problem Solving", "Data Structures", "Mathematics", "Artificial Intelligence"]
+    },
+    {
+      "name": "Random Fact Generator",
+      "url": "https://github.com/algorodev/random-fact-generator",
+      "description": "Fact generator created with React and TypeScript, using \"uselessfacts\" API.",
+      "highlights": ["External API", "Random", "Generator"]
+    }
+  ]
+}

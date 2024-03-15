@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-right: 32px;
+
+  .name {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    color: #1579EC;
+  }
+
+  .title {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-wrap: balance;
+  }
+
+  .location {
+    color: #CCC;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+  }
+
+  .social-container {
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+
+    .social-button {
+      color: #CCC;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #CCC;
+      padding: 4px;
+      height: 32px;
+      width: 32px;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: #FAFAFA;
+        background: #1579EC;
+        border-color: #1579EC;
+      }
+    }
+  }
+}
+
+.image-container {
+  .image {
+    object-fit: cover;
+    width: 128px;
+    border-radius: 16px;
+  }
+}
+
+@media (width <= 700px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .info-container {
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
