@@ -1,6 +1,6 @@
 import { ProjectItemProps } from './projectItem.types.ts'
 
-const ProjectItem = ({ name, url, description,highlights }: ProjectItemProps) => (
+const ProjectItem = ({ name, url, description, highlights }: ProjectItemProps) => (
 	<li>
 		<article className="project">
 			<header className="project-header">
@@ -15,7 +15,8 @@ const ProjectItem = ({ name, url, description,highlights }: ProjectItemProps) =>
 			</header>
 			<footer className="project-footer">
 				{highlights.map((highlight) => (
-					<span className="highlight">{highlight}</span>
+					<span key={`highlight-${highlight}`}
+					      className="highlight">{highlight}</span>
 				))}
 			</footer>
 		</article>

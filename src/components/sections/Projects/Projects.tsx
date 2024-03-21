@@ -6,7 +6,8 @@ const Projects = () => (
 		<section className="container">
 			<ul className="project-list">
 				{projects.map(({ name, url, description, highlights }) => (
-					<ProjectItem name={name}
+					<ProjectItem key={`project-${name}`}
+					             name={name}
 					             url={url}
 					             description={description}
 					             highlights={highlights} />
