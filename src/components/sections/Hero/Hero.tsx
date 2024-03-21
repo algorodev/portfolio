@@ -5,6 +5,7 @@ import LinkedInIcon from '../../icons/LinkedIn.tsx'
 import PhoneIcon from '../../icons/Phone.tsx'
 import { hero } from '../../../data/cv.json'
 import './Hero.scss'
+import TwitterIcon from '../../icons/Twitter.tsx'
 
 const HeroSection = () => (
 	<section className="container">
@@ -29,6 +30,13 @@ const HeroSection = () => (
 				   target="_blank"
 				   rel="noopener noreferrer">
 					<PhoneIcon/>
+				</a>
+				<a className="social-button"
+				   href={hero.twitterUrl}
+				   title={`Visitar el perfil de ${hero.name} en Twitter`}
+				   target="_blank"
+				   rel="noopener noreferrer">
+					<TwitterIcon/>
 				</a>
 				<a className="social-button"
 				   href={hero.linkedInUrl}
