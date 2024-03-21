@@ -1,0 +1,47 @@
+.posts-list {
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none
+}
+
+.post {
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid #FAFAFA;
+  padding: 16px;
+  transition: 0.2s;
+
+  &-header {
+    flex: 1;
+
+    .post-title {
+      color: #6DADF4;
+      text-decoration: none;
+    }
+  }
+
+  time {
+    color: #A5A5A5;
+    font-size: 0.85rem;
+  }
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+
+    .post-title {
+      color: #1579EC;
+    }
+
+    time {
+      color: #FAFAFA;
+    }
+  }
+}
