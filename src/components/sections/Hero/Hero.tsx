@@ -1,11 +1,11 @@
-import WorldIcon from '../../icons/World.tsx'
-import MailIcon from '../../icons/Mail.tsx'
 import GitHubIcon from '../../icons/GitHub.tsx'
 import LinkedInIcon from '../../icons/LinkedIn.tsx'
+import MailIcon from '../../icons/Mail.tsx'
 import PhoneIcon from '../../icons/Phone.tsx'
+import TwitterIcon from '../../icons/Twitter.tsx'
+import WorldIcon from '../../icons/World.tsx'
 import { hero } from '../../../data/cv.json'
 import './Hero.scss'
-import TwitterIcon from '../../icons/Twitter.tsx'
 
 const HeroSection = () => (
 	<section className="container">
@@ -19,37 +19,34 @@ const HeroSection = () => (
 			<footer className="social-container">
 				<a className="social-button"
 				   href={`mailto:${hero.email}`}
-				   title={`Enviar un correo electrónico a ${hero.name} al correo ${hero.email}`}
+				   title={`Send an email to ${hero.email}`}
 				   target="_blank"
 				   rel="noopener noreferrer">
 					<MailIcon/>
 				</a>
 				<a className="social-button"
 				   href={`tel:${hero.phone}`}
-				   title={`Llamar por teléfono a ${hero.name} al número ${hero.email}`}
+				   title={`Call ${hero.email}`}
 				   target="_blank"
 				   rel="noopener noreferrer">
 					<PhoneIcon/>
 				</a>
 				<a className="social-button"
 				   href={hero.twitterUrl}
-				   title={`Visitar el perfil de ${hero.name} en Twitter`}
-				   target="_blank"
-				   rel="noopener noreferrer">
+				   title="Visit Twitter profile"
+				   target="_blank">
 					<TwitterIcon/>
 				</a>
 				<a className="social-button"
 				   href={hero.linkedInUrl}
-				   title={`Visitar el perfil de ${hero.name} en LinkedIn`}
-				   target="_blank"
-				   rel="noopener noreferrer">
+				   title="Visit LinkedIn profile"
+				   target="_blank">
 					<LinkedInIcon/>
 				</a>
 				<a className="social-button"
 				   href={hero.gitHubUrl}
-				   title={`Visitar el perfil de ${hero.name} en GitHub`}
-				   target="_blank"
-				   rel="noopener noreferrer">
+				   title="Visit GitHub profile"
+				   target="_blank">
 					<GitHubIcon/>
 				</a>
 			</footer>

@@ -4,7 +4,7 @@ const PostItem = ({ title, publishedDate, url }: PostItemProps) => (
 	<li>
 		<a href={url}
 		   target="_blank"
-		   title={`Ver el artículo ${title}`}>
+		   title={`Read ${title} post`}>
 			<article className="post">
 				<header className="post-header">
 					<h4 className="post-title">{title}</h4>

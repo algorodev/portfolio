@@ -4,14 +4,6 @@
   gap: 1rem;
 }
 
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none
-}
-
 .post {
   display: flex;
   gap: 32px;
@@ -25,7 +17,6 @@ a {
 
     .post-title {
       color: #6DADF4;
-      text-decoration: none;
     }
   }
 

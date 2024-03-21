@@ -7,7 +7,7 @@ const ProjectItem = ({ name, url, description, highlights }: ProjectItemProps) =
 				<h4 className="project-name">
 					<a href={url}
 					   target="_blank"
-					   title={`Ver el repositorio del proyecto ${name}`}>
+					   title={`Visit ${name} repository`}>
 						{name}
 					</a>
 				</h4>
