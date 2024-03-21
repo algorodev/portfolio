@@ -2,6 +2,7 @@ export interface CV {
 	hero: Hero
 	about: About
 	projects: Project[]
+	posts: Post[]
 }
 
 interface Hero {
@@ -24,4 +25,10 @@ interface Project {
 	url: string
 	description: string
 	highlights: string[]
+}
+
+interface Post {
+	title: string
+	publishedDate: string
+	url: string
 }
