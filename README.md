@@ -1,5 +1,5 @@
 <div align="center">
-    <img width="200" src="public/logo.webp">
+    <img width="200" src="public/logo.webp" alt="Alex Gonzalez Romero website logo">
     <h2>Alex Gonzalez Romero Website</h2>
     <p>Based on <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a> design</p>
     <p>Visit my <a href="https://algorodev.com">website</a></p>
