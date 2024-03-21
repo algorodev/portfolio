@@ -37,5 +37,17 @@
       "description": "Fact generator created with React and TypeScript, using \"uselessfacts\" API.",
       "highlights": ["External API", "Random", "Generator"]
     }
+  ],
+  "posts": [
+    {
+      "title": "Introduction to CSS: Transforming Web Pages with Style",
+      "publishedDate": "Mar 20, 2024",
+      "url": "https://dev.to/algorodev/introduction-to-css-transforming-web-pages-with-style-22p7"
+    },
+    {
+      "title": "Introduction to HTML: The HyperText Markup Language",
+      "publishedDate": "Mar 16, 2024",
+      "url": "https://dev.to/algorodev/introduction-to-html-the-hypertext-markup-language-bk7"
+    }
   ]
 }
