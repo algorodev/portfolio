@@ -1,5 +1,6 @@
 <div align="center">
-    <h2>Portfolio</h2>
+    <img width="200" src="public/logo.webp" alt="Alex Gonzalez Romero website logo">
+    <h2>Alex Gonzalez Romero Website</h2>
     <p>Based on <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a> design</p>
     <p>Visit my <a href="https://algorodev.com">website</a></p>
 </div>
@@ -96,7 +97,6 @@ docker compose down
 | ⚙️ | `dev`     | Starts the project in dev mode.                                 |
 | ⚙️ | `build`   | Compiles the project. If there is any error it should throw it. |
 | ⚙️ | `lint`    | Looks for lint errors in the project.                           |
-| ⚙️ | `test`    | Run test files.                                                 |
 | ⚙️ | `preview` | Preview in local `localhost:5173`.                              |
 
 ## 🔑 License
