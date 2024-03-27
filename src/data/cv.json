@@ -27,6 +27,12 @@
       "highlights": ["REST API", "API Documentation", "Authentication"]
     },
     {
+      "name": "JS Todo App",
+      "url": "https://github.com/algorodev/js-todo-app",
+      "description": "Simple web application where users can add, remove, and mark tasks as complete with persistence of the data on the browser.",
+      "highlights": ["Vanilla", "DOM", "Event-Handling", "Data Persistence", "Responsive Design"]
+    },
+    {
       "name": "Hackerrank Challenges",
       "url": "https://github.com/algorodev/hackerrank-challenges",
       "description": "Solved Hackerrank Challenges using JavaScript and Python.",
@@ -40,6 +46,11 @@
     }
   ],
   "posts": [
+    {
+      "title": "Introduction to JavaScript: Empowering Web Development with Interactivity",
+      "publishedDate": "Mar 25, 2024",
+      "url": "https://dev.to/algorodev/introduction-to-javascript-empowering-web-development-with-interactivity-1cla"
+    },
     {
       "title": "Introduction to CSS: Transforming Web Pages with Style",
       "publishedDate": "Mar 20, 2024",
