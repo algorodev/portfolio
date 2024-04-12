@@ -1,10 +1,10 @@
 import { PostItemProps } from './postItem.types.ts'
 
-const PostItem = ({ title, publishedDate, url }: PostItemProps) => (
+const PostItem = ({ title, publishedDate, publishedWeb, url }: PostItemProps) => (
 	<li>
 		<a href={url}
 		   target="_blank"
-		   title={`Read ${title} post`}>
+		   title={`Read ${title} post on ${publishedWeb}`}>
 			<article className="post">
 				<header className="post-header">
 					<h4 className="post-title">{title}</h4>

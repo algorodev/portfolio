@@ -1,16 +1,17 @@
 import ProjectItem from './ProjectItem/ProjectItem.tsx'
-import { projects } from '../../../data/cv.json'
+import { projects } from '../../../data/projects.json'
 import './Projects.scss'
 
 const Projects = () => (
 		<section className="container">
 			<ul className="project-list">
-				{projects.map(({ name, url, description, highlights }) => (
+				{projects.map(({ description, highlights, name, publishedUrl, repositoryUrl }) => (
 					<ProjectItem key={`project-${name}`}
-					             name={name}
-					             url={url}
 					             description={description}
-					             highlights={highlights} />
+					             highlights={highlights}
+					             name={name}
+					             publishedUrl={publishedUrl}
+											 repositoryUrl={repositoryUrl} />
 				))}
 			</ul>
 		</section>

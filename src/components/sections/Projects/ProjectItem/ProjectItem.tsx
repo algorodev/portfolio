@@ -1,11 +1,11 @@
 import { ProjectItemProps } from './projectItem.types.ts'
 
-const ProjectItem = ({ name, url, description, highlights }: ProjectItemProps) => (
+const ProjectItem = ({ description, highlights, name, repositoryUrl }: ProjectItemProps) => (
 	<li>
 		<article className="project">
 			<header className="project-header">
 				<h4 className="project-name">
-					<a href={url}
+					<a href={repositoryUrl}
 					   target="_blank"
 					   title={`Visit ${name} repository`}>
 						{name}
