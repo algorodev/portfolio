@@ -5,6 +5,7 @@ import MailIcon from '../../icons/Mail.tsx'
 import PhoneIcon from '../../icons/Phone.tsx'
 import TwitterIcon from '../../icons/Twitter.tsx'
 import WorldIcon from '../../icons/World.tsx'
+import { getYearsFromDate } from '../../../utils/date.utils.ts'
 import './Hero.scss'
 
 const HeroSection = () => {
@@ -14,7 +15,9 @@ const HeroSection = () => {
 		<section className="container">
 			<div className="info-container">
 				<h1 className="name">{t('hero.name')}</h1>
-				<h2 className="title">{t('hero.label')}</h2>
+				<h2 className="title">{t('hero.label', { years: getYearsFromDate() })}
+					<span>{t('hero.jobTitle')}</span>{t('hero.born')}
+				</h2>
 				<span className="location">
 					<WorldIcon/>
 					{t('hero.basedIn')}

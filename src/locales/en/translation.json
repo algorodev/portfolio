@@ -1,8 +1,9 @@
 {
   "hero": {
-    "name": "Alejandro González Romero",
-    "label": "Full Stack Developer with more than {{years}} years of experience",
-    "born": "Valencia, Spain",
+    "name": "Alex González Romero",
+    "label": "+{{years}} years of experience.",
+    "jobTitle": " Full Stack Developer ",
+    "born": "born in Valencia, Spain.",
     "basedIn": "Dublin, Ireland",
     "email": "me@algorodev.com",
     "phone": "+34648183931",
@@ -11,5 +12,9 @@
     "twitterUrl": "https://twitter.com/algorodev",
     "imagePath": "/me.webp"
   },
-  "about": "Tech-enthusiast with more than {{years}} years of experience as a programmer with quick adaptation to new challenges and responsibilities. Experience of working with tight deadlines, under time pressure while ensuring quality and with agile methodologies. I'm always curious to learn more about technologies and any kind of art, I'm a passionate about music, films and sports."
+  "about": {
+    "paragraph1": "My name is Alejandro González, but I think Alex is an informal way, so use which you prefer. I have worked in different roles and projects, from small startups to big corporations, always with the same passion for technology and software development and I'm not afraid of getting out of my comfort zone.",
+    "paragraph2": "I have a strong background in web development, with a focus on JavaScript, Python and their ecosystems. I have experience with both front-end and back-end technologies, and I'm always eager to learn new things and improve my skills.",
+    "paragraph3": "I also enjoy writing technical articles and sharing my knowledge with others. I'm always looking for new challenges and opportunities to grow as a developer and as a person."
+  }
 }
