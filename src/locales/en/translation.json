@@ -1,3 +1,68 @@
 {
-  "test": "Welcome to the test page {{name}}!"
+  "hero": {
+    "name": "Alejandro González Romero",
+    "label": "Full Stack Developer with more than {{years}} years of experience",
+    "born": "Dublin, Ireland",
+    "email": "me@algorodev.com",
+    "phone": "+34648183931",
+    "linkedInUrl": "https://linkedin.com/in/algorodev",
+    "gitHubUrl": "https://github.com/algorodev",
+    "twitterUrl": "https://twitter.com/algorodev",
+    "imagePath": "/me.webp"
+  },
+  "about": "Tech-enthusiast with more than {{years}} years of experience as a programmer with quick adaptation to new challenges and responsibilities. Experience of working with tight deadlines, under time pressure while ensuring quality and with agile methodologies. I'm always curious to learn more about technologies and any kind of art, I'm a passionate about music, films and sports.",
+  "projects": [
+    {
+      "name": "Portfolio",
+      "url": "https://github.com/algorodev/portfolio",
+      "description": "Personal portfolio created with HTML, CSS, React, Vite and TypeScript.",
+      "highlights": ["Portfolio"]
+    },
+    {
+      "name": "Auth API",
+      "url": "https://github.com/algorodev/auth-api",
+      "description": "Authentication API created with NodeJS, Express, TypeScript and PostgreSQL.",
+      "highlights": ["REST API", "API Documentation", "Authentication"]
+    },
+    {
+      "name": "JS Todo App",
+      "url": "https://github.com/algorodev/js-todo-app",
+      "description": "Simple web application where users can add, remove, and mark tasks as complete with persistence of the data on the browser.",
+      "highlights": ["Vanilla", "DOM", "Event-Handling", "Data Persistence", "Responsive Design"]
+    },
+    {
+      "name": "Hackerrank Challenges",
+      "url": "https://github.com/algorodev/hackerrank-challenges",
+      "description": "Solved Hackerrank Challenges using JavaScript and Python.",
+      "highlights": ["Algorithms", "Problem Solving", "Data Structures", "Mathematics", "Artificial Intelligence"]
+    },
+    {
+      "name": "Random Fact Generator",
+      "url": "https://github.com/algorodev/random-fact-generator",
+      "description": "Fact generator created with React and TypeScript, using \"uselessfacts\" API.",
+      "highlights": ["External API", "Random", "Generator"]
+    }
+  ],
+  "posts": [
+    {
+      "title": "Introduction to Web Development: Navigating the Digital Creation Space",
+      "publishedDate": "Apr 2, 2024",
+      "url": "https://dev.to/algorodev/introduction-to-web-development-navigating-the-digital-creation-space-3jlh"
+    },
+    {
+      "title": "Introduction to JavaScript: Empowering Web Development with Interactivity",
+      "publishedDate": "Mar 25, 2024",
+      "url": "https://dev.to/algorodev/introduction-to-javascript-empowering-web-development-with-interactivity-1cla"
+    },
+    {
+      "title": "Introduction to CSS: Transforming Web Pages with Style",
+      "publishedDate": "Mar 20, 2024",
+      "url": "https://dev.to/algorodev/introduction-to-css-transforming-web-pages-with-style-22p7"
+    },
+    {
+      "title": "Introduction to HTML: The HyperText Markup Language",
+      "publishedDate": "Mar 16, 2024",
+      "url": "https://dev.to/algorodev/introduction-to-html-the-hypertext-markup-language-bk7"
+    }
+  ]
 }
