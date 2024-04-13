@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "name": "Alex González Romero",
+    "label": "+{{years}} años de experiencia.",
+    "jobTitle": " Desarrollador Full Stack ",
+    "born": "nacido en Valencia, España.",
+    "basedIn": "Dublín, Irlanda",
+    "email": "me@algorodev.com",
+    "phone": "+34648183931",
+    "linkedInUrl": "https://linkedin.com/in/algorodev",
+    "gitHubUrl": "https://github.com/algorodev",
+    "twitterUrl": "https://twitter.com/algorodev",
+    "imagePath": "/me.webp"
+  },
+  "about": {
+    "paragraph1": "Mi nombre es Alejandro González, pero creo que Alex es más informal, así que usa el que prefieras. He trabajado en diferentes roles y proyectos, desde pequeñas startups hasta grandes corporaciones, siempre con la misma pasión por la tecnología y el desarrollo de software, sin miedo de salir de mi zona de confort.",
+    "paragraph2": "Tengo una sólida formación en desarrollo web, con un enfoque en JavaScript, Python y sus ecosistemas. Tengo experiencia tanto en tecnologías de front-end como de back-end, y siempre estoy deseoso de aprender cosas nuevas y mejorar mis habilidades.",
+    "paragraph3": "También disfruto escribiendo artículos técnicos y compartiendo mi conocimiento con otros. Siempre estoy buscando nuevos desafíos y oportunidades para crecer como desarrollador y como persona."
+  }
+}
